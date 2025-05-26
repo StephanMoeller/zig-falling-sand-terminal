@@ -1,3 +1,3 @@
 zig run src/main.zig
 
-![Peek 2025-05-26 22-35](https://github.com/user-attachments/assets/1c89956f-6fe2-4fa4-85b8-565ab8458238)
+![Peek 2025-05-26 22-36](https://github.com/user-attachments/assets/519e0af5-d2b1-481d-aec9-e49143b945ca)
