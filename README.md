@@ -1,5 +1,6 @@
 zig run src/main.zig
 
+This is a poc on making sand movement calculations by using bit operations alone.
 
 
 
