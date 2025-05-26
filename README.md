@@ -2,5 +2,5 @@ zig run src/main.zig
 
 
 
-https://github.com/user-attachments/assets/9b5ab48a-ddcc-43bd-bf3b-0ba7dce40d07
+https://github.com/user-attachments/assets/c4490552-7d9e-4c0e-a69c-e78262baae58
 
