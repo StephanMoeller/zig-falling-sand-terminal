@@ -46,7 +46,7 @@ pub fn main() !void {
                 const bottom = map[lineIdx];
 
                 map[lineIdx-1] = top & bottom;
-                map[lineIdx] = (top ^ bottom) | bottom;
+                map[lineIdx] = (top | bottom);
             }
 
             {
@@ -55,7 +55,7 @@ pub fn main() !void {
                 const bottom = map[lineIdx];
 
                 map[lineIdx-1] = (top & bottom) << 1;
-                map[lineIdx] = (top ^ bottom) | bottom;
+                map[lineIdx] = (top | bottom);
             } 
 
             {
@@ -64,7 +64,7 @@ pub fn main() !void {
                 const bottom = map[lineIdx];
 
                 map[lineIdx-1] = (top & bottom) >> 1;
-                map[lineIdx] = (top ^ bottom) | bottom;
+                map[lineIdx] = (top | bottom);
             }
         }
         std.time.sleep(40_000_000);
